@@ -1,23 +1,23 @@
 # Cancer_Prediction
 
 
-Exploratory Data Analysis
-●The Dataset has Medical Records of 198breast cancer patients.
-●There are 35 medical features that help us in analysing whether a patient has a tumor that is recurrent or not
-●This is a Binary Classification problem with classes: Recurrent Tumor(1) and Non-recurrent Tumor(0).
-●The Dataset is quite imbalanced as the number of patients with Recurrent tumor are47and number of patients with non recurrent tumor are 151.
-●There are4missing values marked as ‘?’ in ‘Lymph_Node_Status’ feature.
-●There is a feature which provides the value of the recurrence time for patients.
+Exploratory Data Analysis:
+The Dataset has Medical Records of 198breast cancer patients.
+There are 35 medical features that help us in analysing whether a patient has a tumor that is recurrent or not
+This is a Binary Classification problem with classes: Recurrent Tumor(1) and Non-recurrent Tumor(0).
+The Dataset is quite imbalanced as the number of patients with Recurrent tumor are47and number of patients with non recurrent tumor are 151.
+There are4missing values marked as ‘?’ in ‘Lymph_Node_Status’ feature.
+There is a feature which provides the value of the recurrence time for patients.
 
 
-Observations
-●As we see, The dataset is imbalanced. Recurrent classes are 47 and Nonrecurrent classes are 151.
-●The number of positive axillary lymph nodes of different for different patients. with largest number of lymph nodes to be as high as 27 where as few patients have no lymph nodes at all.
-●We can observe that the maximum time of recurrence of tumor is 125 and lowest is 1units of time.
-●The correlation matrix gives the pairwise correlation between all the columns.
-●We can clearly observe that the time of recurrence is poorly correlated with almost all the features.
-●It is important to notice that there is strong correlation between Smoothness, compactness, concavity of cells with fractal dimension of cells.
-●There is strong correlation between features that are related to radius, perimeter, texture area of cell which is quite intuitive.
+Observations:
+As we see, The dataset is imbalanced. Recurrent classes are 47 and Nonrecurrent classes are 151.
+The number of positive axillary lymph nodes of different for different patients. with largest number of lymph nodes to be as high as 27 where as few patients have no lymph nodes at all.
+We can observe that the maximum time of recurrence of tumor is 125 and lowest is 1units of time.
+The correlation matrix gives the pairwise correlation between all the columns.
+We can clearly observe that the time of recurrence is poorly correlated with almost all the features.
+It is important to notice that there is strong correlation between Smoothness, compactness, concavity of cells with fractal dimension of cells. 
+There is strong correlation between features that are related to radius, perimeter, texture area of cell which is quite intuitive.
 
 
 The whole task is performed in following steps
